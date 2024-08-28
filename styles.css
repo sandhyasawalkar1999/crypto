@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(247, 243, 243);
+
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding: 5px;
+    background-color: white;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px;
+    /* margin: auto; */
+}
+.logo_name{
+    display: flex;
+    /* margin: auto; */
+    font-size: 22px;
+}
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+}
+.head p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+.coins{
+
+    background-color: rgb(247, 243, 243);
+
+}
+.coinsCards{
+    display: flex;
+    border: 2px solid black;
+    width: 30rem;
+    height: 6rem;
+    
+}
+.coinsCards .img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.coinsCards p{
+    font-size:22px;
+}
