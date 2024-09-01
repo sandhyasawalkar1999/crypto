@@ -11,6 +11,10 @@ form.addEventListener("submit", async (e) => {
   const searchInput = document.getElementById("searchInput");
   console.log(searchInput.value);
 
+  const loading = document.getElementById("load");
+
+  loading.style.display = "block";
+
   const res = await fetch(
     `https://api.coingecko.com/api/v3/search?query=${searchInput.value}`
   );
@@ -20,11 +24,13 @@ form.addEventListener("submit", async (e) => {
 
   const searchDetail = document.getElementById("searchDetail");
 
-  data.coins.forEach((coin,index) => {
+  loading.style.display = 'none';
+
+   data.coins.forEach((coin,index) => {
     const coinCards = document.createElement("div");
     coinCards.classList.add("coinCard");
-
-
+ 
+    
     coinCards.innerHTML = ` 
                     <div class="leftside">
                         <p>${index + 1}</p>
@@ -34,12 +40,13 @@ form.addEventListener("submit", async (e) => {
                     </div>
                     <div class="right">
                    
-                 <button class="btn" onclick="onMoreDetail(`${coin.id}`)" >More Info</button>
+                 <button class="btn" onclick="onMoreDetail('${coin.id}') " >More Info</button>
                 </div> `;
 
             searchDetail.appendChild(coinCards);
   });
 });
+
 
 // const searchDetail = document.getElementById('searchDetail');
 

@@ -49,3 +49,14 @@
 .right{
     margin-left: auto;
 }
+.loader
+{
+    width: 300px;
+    height: 300px;
+    margin : 0px 0rem 20px 38rem;
+    
+}
+.load{
+    background-color:white;
+    display: none;
+}
