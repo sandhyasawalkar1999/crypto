@@ -32,6 +32,10 @@ body{
     width: 100px;
     height: 50px;
     margin: 20px;
+    font-size: 15px;
+}
+.btn:hover{
+     box-shadow: 5px 5px 5px green;
 }
 .head{
     display: flex;
@@ -47,13 +51,37 @@ body{
 .coins{
 
     background-color: rgb(247, 243, 243);
+    text-align: center;
+    /* display: flex; */
+    
 
 }
+.searchDetail{
+    display: flex;
+}
+#coinsCardssss{
+    display: flex;
+    gap: 1rem;
+    animation: 3s linear 1s infinite running slidein;
+    /* animation: slide 20s linear infinite; */
+}
+ @keyframes slide{
+    0% {
+        right : 0px;
+    }
+    100%{
+        right : 100%;
+    }
+ }
 .coinsCards{
     display: flex;
-    border: 2px solid black;
-    width: 30rem;
-    height: 6rem;
+    /* border: 2px solid black; */
+    width: 150vw;
+    height: 10rem;
+    margin: 20px;
+    background-color: rgb(234, 216, 234);
+    border-radius: 5px;
+    
     
 }
 .coinsCards .img{
@@ -63,4 +91,16 @@ body{
 }
 .coinsCards p{
     font-size:22px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+}
+.gitlogo{
+    width: 100px;
+    height: 50px;
+   
 }

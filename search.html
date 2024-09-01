@@ -1,17 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\styles\search.css">
     <link rel="stylesheet" href=".\styles\styles.css">
     <link rel="shortcut icon" href=".\images\logo.png" type="image/png" />
 </head>
 <body>
+
     <nav class="nav">
         <div class="logo_name">
             <div >
-                <img class="logo" id="title" src="https://aayusharyan.github.io/cryptoview-project/assets/images/logo.png" alt="logo">
+                <img class="logo"  id="title" src="https://aayusharyan.github.io/cryptoview-project/assets/images/logo.png" alt="logo">
                
             </div>
             <div>
@@ -23,24 +24,21 @@
             <button  class="btn" id="searchNav">Search</button>
         </div>
     </nav>
-    <header class="head">
-        <div>
-            <h1>CryptoView</h1>
-            <p>A platform to view information about all cryptocurrencies live.
-            </p>
-        </div>
-        <div>
-            <img src="https://aayusharyan.github.io/cryptoview-project/assets/images/main_image.svg" alt="banner img">
-        </div>
+    <header class="search">
+         
+        <h1>Search</h1>
+        <form  id="searchForm">
+            <input type="text" id="searchInput" placeholder="Enter Coins Name">
+            <button type="submit" class="btn" id="searchbtn">Search</button>
+        </form>
+        <hr>
+
     </header>
-    <div class="coins" id="coinContainer">
-        <h1>Top Coins</h1>
+    <div class="searchContainer" id="serachContainer">
 
-        <div  id="coinsCardssss">
-
-      
-           
-     </div>
+    <div class="searchDetail" id="searchDetail">
+        
+       </div>
     </div>
     <footer>
         <div>
@@ -52,7 +50,6 @@
               </a>
         </div>
     </footer>
-    <script src=".\js\index.js"></script>
-    <script src=".\js\script.js"></script>
+    <script src=".\js\search.js"></script>
 </body>
 </html>

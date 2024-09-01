@@ -1,0 +1,51 @@
+.search{
+    text-align: center;
+}
+.search input{
+    width: 32rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+.searchDetail{
+    /* display: flex; */
+    justify-content: space-between;
+    background-color: rgb(200, 208, 208);
+    margin: 15px 40px;
+    flex-direction: column;
+    width: 100vw;
+    margin: 20px;
+    /* border: 2px solid black; */
+}
+.searchDetail img{
+    width: 50px;
+    height: 50px;
+}
+.coinCard{
+    
+    border: 1px solid black;
+    margin: 10px 30px;
+    background-color: white;
+}
+.coinCard:hover{
+
+    box-shadow: 5px 5px 5px gray;
+}
+.leftside{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+.right .btn{
+    margin-left: auto;
+    background-color: rgb(245, 131, 64);
+}
+.right .btn:hover{
+    box-shadow: 5px 5px 5px rgb(251, 158, 44);
+}
+.right{
+    margin-left: auto;
+}

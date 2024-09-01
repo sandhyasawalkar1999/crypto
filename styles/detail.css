@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    gap: 5rem;
+    padding: 20px;
+}
+.his{
+    text-align: center;
+    align-items: center;
+    color: blueviolet;
+}
+.logoimg{
+    width: 15rem;
+    height: 15rem;
+}
+.heading{
+    color: orange;
+    font-size: 35px;
+}
+ul li{
+    
+    list-style-type: none;
+    font-size: 19px;
+
+}
+.rupees{
+    display: flex;
+    /* gap: 5rem; */
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+.desc{
+    font-size: 18px;
+}
